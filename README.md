@@ -15,7 +15,7 @@ In other words, you win if 5 of your pieces form an arithmetic progression (AP) 
 
 (If you never played 5-in-a-Row, think of tic-tac-toe as 3-in-a-Row.)
 
-#### Exercise
+#### A small exercise
 Prove that when there are only 2 players, the first one can win easily.
 
 ... which is why it's reasonable to have at least 3 players. In fact, that's how it's initially played after introduced by one of my classmates (very likely Shengyu Zhao).
@@ -45,7 +45,7 @@ The rigor is in your hands.
 10 minutes after the last move or immediately after a winner is annouced, everyone visiting the page could clear the board.
 
 ## Identity security ~~(Hacker manual)~~
-When you visit the main page, a "password" is dynamically generated and stored in the session storage associated with the current browser tab. It will be preserved upon reloading the page. Almost all game actions will be sent to the server with this password. It proves your identity and prevents others from pretending as you. (Otherwise, imagine you're green and in your turn, someone enters "play green 3 4" or equivalent at the console...)
+When you visit the main page, a "password" is dynamically generated and stored in the session storage associated with the current browser tab. It will be preserved upon reloading the page. Almost all game actions will be sent to the server with this password. It proves your identity and prevents others from pretending as you. (Otherwise, imagine that in your turn, someone enters `play green 3 4` or equivalent at the console...)
 
 The hashed password is stored somewhere public, but the hashing function makes it computationally hard to retrieve the password. *The session storage will be cleared when the tab is closed.*
 
