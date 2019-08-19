@@ -1,5 +1,4 @@
 # Collinear-Equidistant Gomoku (5 in an AP) | 五子等距共线棋
------
 
 Welcome to a new variety of Gomoku! Here are the rules and some thoughts.
 
