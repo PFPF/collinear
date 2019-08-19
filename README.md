@@ -9,7 +9,7 @@ If you have played Gomoku (5-in-a-Row), the rule is easy to get:
 
 
 This will include all Gomoku's winning configurations, but add a lot more, like this:
-<p align="center"><img src="https://collinear.fei.land/rules/ri.PNG" height="200"></p>
+<p align="center"><img src="https://collinear.fei.land/rules/ri.PNG" width="40%"></p>
 
 In other words, you win if 5 of your pieces form an arithmetic progression (AP) in the 2D metric.
 
