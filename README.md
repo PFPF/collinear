@@ -59,4 +59,7 @@ The hashed password is stored somewhere public, but the hashing function makes i
  - [EventSource IE polyfill](https://github.com/remy/polyfills/blob/master/EventSource.js) by Remy Sharp
  - An HTML version is at the [main site](https://collinear.fei.land/rules). It was efficiently made thanks to [Dillinger](https://dillinger.io/).
  
+[(Another interesting chess)](http://namabili-game-center.herokuapp.com/games/gomoku)
+
+ 
 Wish you a 5 in an AP!
