@@ -57,6 +57,6 @@ The hashed password is stored somewhere public, but the hashing function makes i
 ## Acknowledgements
 
  - [EventSource IE polyfill](https://github.com/remy/polyfills/blob/master/EventSource.js) by Remy Sharp
- - An HTML version is at [](https://collinear.fei.land/rules). It was efficiently made thanks to [Dillinger](https://dillinger.io/).
+ - An HTML version is at the [main site](https://collinear.fei.land/rules). It was efficiently made thanks to [Dillinger](https://dillinger.io/).
  
 Wish you a 5 in an AP!
