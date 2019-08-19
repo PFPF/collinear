@@ -2,14 +2,14 @@
 
 Welcome to a new variety of Gomoku! Here are the rules and some thoughts.
 
-### Basic rule
+## Basic rule
 
 If you have played Gomoku (5-in-a-Row), the rule is easy to get: 
 > **Instead of having 5 *adjacent* pieces in a row, now you can win with any 5 pieces that are collinear and equidistant.**
 
 
 This will include all Gomoku's winning configurations, but add a lot more, like this:
-***pic
+![](https://collinear.fei.land/rules/ri.PNG)
 
 In other words, you win if 5 of your pieces form an arithmetic progression (AP) in the 2D metric.
 
@@ -20,15 +20,15 @@ Prove that when there are only 2 players, the first one can win easily.
 
 ... which is why it's reasonable to have at least 3 players. In fact, that's how it's initially played after introduced by one of my classmates (very likely Shengyu Zhao).
 
-### Joining the game
+## Joining the game
 
 Click "Join" to join.
 
-### Game play
+## Game play
 
 In your turn, click an empty spot on the board to put down a piece.
 
-### Force-end a turn
+## Force-end a turn
 
 Once in a while, there's someone who disconnects or hibernates during the game, producing an un~~der~~standably (or infinitely) long turn. 
 
@@ -40,7 +40,7 @@ To account for both patience and fairness, we use the following rule:
 
 The rigor is in your hands.
 
-### Clear-out
+## Clear-out
 
 10 minutes after the last move or immediately after a winner is annouced, everyone visiting the page could clear the board.
 
