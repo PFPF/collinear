@@ -45,7 +45,7 @@ The rigor is in your hands.
 10 minutes after the last move or immediately after a winner is annouced, everyone visiting the page could clear the board.
 
 ## Identity security ~~(Hacker manual)~~
-When you visit the page, a "password" is dynamically generated and stored in the session storage associated with the current browser tab. It will be preserved upon reloading the page. Almost all game actions will be sent to the server with this password. It proves your identity and prevents others from pretending as you. (Otherwise, imagine you're green and in your turn, someone enters "play green 3 4" or equivalent at the console...)
+When you visit the main page, a "password" is dynamically generated and stored in the session storage associated with the current browser tab. It will be preserved upon reloading the page. Almost all game actions will be sent to the server with this password. It proves your identity and prevents others from pretending as you. (Otherwise, imagine you're green and in your turn, someone enters "play green 3 4" or equivalent at the console...)
 
 The hashed password is stored somewhere public, but the hashing function makes it computationally hard to retrieve the password. *The session storage will be cleared when the tab is closed.*
 
@@ -53,5 +53,10 @@ The hashed password is stored somewhere public, but the hashing function makes i
 
  - Visualize current player 
  - Complete bilingual support
+ 
+## Acknowledgements
 
+ - [EventSource IE polyfill](https://github.com/remy/polyfills/blob/master/EventSource.js) by Remy Sharp<
+ - An HTML version is at [](https://collinear.fei.land/rules). It was efficiently made thanks to [Dillinger](https://dillinger.io/).
+ 
 Wish you a 5 in an AP!
